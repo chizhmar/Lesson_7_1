@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "CircularStd", sans-serif;
+	min-height: 100%;
+	overflow: hidden;
+	line-height: 1.5;
+	max-width: 850px;
+	margin: 0 auto;
+	background-image: linear-gradient(
+  45deg,
+  hsl(240deg 18% 36%) 0%,
+  hsl(275deg 14% 40%) 11%,
+  hsl(312deg 12% 46%) 22%,
+  hsl(335deg 14% 53%) 33%,
+  hsl(352deg 16% 60%) 44%,
+  hsl(6deg 19% 66%) 56%,
+  hsl(17deg 22% 72%) 67%,
+  hsl(26deg 23% 77%) 78%,
+  hsl(37deg 22% 84%) 89%,
+  hsl(54deg 22% 91%) 100%
+);
+}
+.header {
+	font-family: "lato";
+	font-size: 30px;
+	background-color: brown;
+	display: inline-block;
+	border-radius: 50%;
+	padding: 15PX;
+	color: beige;
+	margin-bottom: 20PX;
+	border: dotted;
+	box-shadow: 0 5px 10px 5px rgb(201, 89, 37);
+}
+.block-title {
+	text-align: center;
+	padding: 30px;
+	background-color: cornflowerblue;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.block-title h1 {
+	font-size: 40px;
+	font-weight: 900;
+	background-color: chartreuse;
+	margin: 10px;
+	padding: 50px;
+	border-radius: 50%;
+	color: rgb(117, 23, 23);
+	text-decoration: line-through;
+}
+.img img {
+	width: 100%;
+	max-width: 100%;
+	border-radius: 80%;
+	margin-bottom: 30px;
+}
+.block1 {
+	margin-bottom: 30px;
+}
+.block1 p {
+	margin-bottom: 10px;
+}
+.block1 .text1 {
+	font-family: "lato";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: right;
+	text-transform: capitalize;
+	background-color: green;
+	color: cadetblue;
+}
+.block1 .text2 {
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	background-color: darkgoldenrod;
+	border: solid rgb(14, 9, 43);
+	color: deeppink;
+}
+.block1 .text3 {
+	font-size: 30px;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+	word-spacing: 20px;
+	overflow: scroll;
+	max-height: 100px;
+	background-color: rgb(53, 34, 5);
+	color: rgb(175, 15, 10);
+}
+.block2 {
+	margin-bottom: 30px;
+}
+.block2 p {
+	margin-bottom: 20px;
+}
+.block2 .text4 {
+	font-family: "lato";
+	font-size: 30px;
+	font-weight: 400;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	border-bottom: solid greenyellow;
+	border-top: dotted red;
+	text-shadow: 10px 8px 3px black;
+	color: aliceblue;
+}
+.text5 {
+	font-family: "lato";
+	font-size: 30px;
+	font-weight: 400;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	text-shadow: 10px 8px 3px black;
+	opacity: 0;
+	color: aliceblue;
+}
+.block3 {
+	padding: 20px;
+	margin: 5px 10px 30px 15px;
+	box-shadow: 20px 10px 10px 10px brown;
+}
+.text6 {
+	font-family: "lato";
+	font-weight: 400;
+	font-size: 25px;
+	border: double royalblue;
+	color: bisque;
+}
+.text7 {
+	font-family: "lato";
+	font-weight: 400;
+	font-size: 25px;
+	color: rgb(163, 139, 108);
+}
+.list {
+	background-color: aquamarine;
+	margin-bottom: 30px;
+}
+.item-list {
+	font-family: "lato";
+	font-weight: 400;
+	font-size: 30px;
+	text-decoration: underline;
+	background: url(../img/check.png) 0 8px / 30px no-repeat;
+	padding: 0 0 0 40px;
+	color: blueviolet;
+}
+.footer a {
+	font-size: 40px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: chartreuse;
+	box-shadow: 0 5px 10px 5px green;
+	color: rgb(78, 48, 10);
+	margin-bottom: 50px;
+}
